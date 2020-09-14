@@ -5,7 +5,7 @@
 \title{Gaussian surface}
 \usage{
 gausDGS(
-  dim = 300,
+  dim = 200,
   autocorr_range = NULL,
   mag_var = 5,
   nug = 1,
@@ -13,7 +13,7 @@ gausDGS(
 )
 }
 \arguments{
-\item{dim}{(Default 300). Number rows and columns in raster}
+\item{dim}{(Default 200). Number rows and columns in raster}
 
 \item{autocorr_range}{Maximum range (raster units) of spatial autocorrelation. (Default will be 3 percent of raster 'dim')}
 

@@ -4,7 +4,7 @@
 #' 
 #' @author Bill Peterman
 #'
-#' @param dim (Default 300). Number rows and columns in raster
+#' @param dim (Default 200). Number rows and columns in raster
 #' @param autocorr_range Maximum range (raster units) of spatial autocorrelation. (Default will be 3 percent of raster 'dim')
 #' @param mag_var Magnitude of variation over the entire landscape (Default 5)
 #' @param nug Magnitude of variation in the scale of autocorr_range, smaller values lead to more homogeneous landscapes (Default 1)
@@ -12,7 +12,7 @@
 #' 
 #' @export
 
-gausDGS <- function(dim = 300,
+gausDGS <- function(dim = 200,
                     autocorr_range = NULL,
                     mag_var = 5,
                     nug = 1,

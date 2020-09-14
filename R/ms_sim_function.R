@@ -242,8 +242,8 @@ cdpop_sim <- function(master_seed,
                          y = all_deme_coords@coords[pops_,2])
     
     # PCA dist ---------------------------------------------------------------
-    if(n_axes > length(gi_sub)){
-      n_axes <- length(gi_sub)
+    if(n_axes > sum(adegenet::nAll(cdpop_grid[gi_sub]))){
+      n_axes <- sum(adegenet::nAll(cdpop_grid[gi_sub]))
     }
     
     Dps <- 1-adegenet::propShared(cdpop_grid[gi_sub])

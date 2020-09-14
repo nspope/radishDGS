@@ -3,6 +3,7 @@
 export(aic_tab)
 export(bin2cont)
 export(cdpop_sim)
+export(corr_rast)
 export(cv_model_selection)
 export(fbm_corr)
 export(fit_radish2sims)

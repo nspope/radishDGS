@@ -9,7 +9,7 @@ gaus_corr(corr, dim, autocorr_range = 5, mag_var = 25, nug = 5, user_seed = NA)
 \arguments{
 \item{corr}{Desired correlation level between fbm surfaces}
 
-\item{dim}{Dimension of simulated raster (Default = 400)}
+\item{dim}{Dimension of simulated raster}
 
 \item{autocorr_range}{Maximum range (raster units) of spatial autocorrelation. (Default = 5)}
 
@@ -20,7 +20,7 @@ gaus_corr(corr, dim, autocorr_range = 5, mag_var = 25, nug = 5, user_seed = NA)
 \item{user_seed}{Seed can be set for reproducibility (Default = NA)}
 }
 \description{
-Function to create correlated Fractal Brownian Motion surfaces
+Function to create correlated Gaussian surfaces
 }
 \author{
 Bill Peterman

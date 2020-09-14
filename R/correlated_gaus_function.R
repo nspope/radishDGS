@@ -1,9 +1,9 @@
 #' @author Bill Peterman
 #' @title Generate correlated Gaussian surfaces
-#' @description Function to create correlated Fractal Brownian Motion surfaces
+#' @description Function to create correlated Gaussian surfaces
 #' 
 #' @param corr Desired correlation level between fbm surfaces
-#' @param dim Dimension of simulated raster (Default = 400)
+#' @param dim Dimension of simulated raster 
 #' @param autocorr_range Maximum range (raster units) of spatial autocorrelation. (Default = 5)
 #' @param mag_var Magnitude of variation over the entire landscape. (Default = 25)
 #' @param nug Magnitude of variation in the scale of autocorr_range, smaller values lead to more homogeneous landscapes.(Default = 5)

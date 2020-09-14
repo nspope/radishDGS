@@ -9,6 +9,8 @@ XXX
 \arguments{
 \item{params}{Object generated from `get_params` OR results from `cdpop_sim`}
 
+\item{log}{(Default = TRUE) The the log transformed conductance surface will be plotted}
+
 \item{...}{Not used}
 }
 \value{
@@ -19,7 +21,8 @@ Function to map simulated demes onto conductance surface
 }
 \examples{
 ## Not Run:
-## map_cdpop(params) ##  
+## map_cdpop(params,
+             log = TRUE) ##  
 
 ## End (Not run)
 

@@ -1,7 +1,7 @@
 Package: radishDGS
 Type: Package
-Title: What the package does (short line)
-Version: 1.0
+Title: Functions to conduct genetic simulations for DGS project
+Version: 1.1
 Date: 2020-07-09
 Author: Nate Pope & Bill Peterman
 Imports: radish, reticulate, raster, NLMR, adegenet, readr, PopGenReport
